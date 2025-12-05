@@ -6,6 +6,11 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+      - name: yangxing
+      url-base: https://github.com/yangxing844
+      - name: zmk-lpm009m360a-driver
+      remote: yangxing
+      revision: master
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne

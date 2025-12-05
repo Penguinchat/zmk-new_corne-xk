@@ -199,6 +199,7 @@ lpm_view_spi: &spi0 {
     pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN) >;
+    label = "lpm_view_spi";
 };
 
 &pwm0 {
